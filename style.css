@@ -1,0 +1,78 @@
+pseudo-class {
+    property: value;
+  }
+
+  /* unvisited link */
+a:link {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #00FF00;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
+  a.highlight:hover {
+    color: #ff0000;
+  }
+  #dv:hover {
+    background-color: blue;
+    
+  }
+  #dv{
+    margin-top: 30px;
+  }
+
+  #dv2{
+    margin-top: 40px;
+  }
+ 
+  #p1 {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  #dv2:hover p {
+    display: block;
+  }
+
+  #dv3{
+    margin-top: 30px;
+  }
+
+  #checkbox1:checked {
+    height: 20px;
+    width: 20px;
+   
+  }
+
+  input[type=text]:enabled {
+    background: #3f8cff;
+    color: antiquewhite;
+  }
+  
+  #ipt3[type=text]:disabled {
+    background: #ff5252;
+    color: antiquewhite;
+  }
+  #fm1{
+    margin-top: 30px;
+  }
+  #dv4{
+    margin-top: 30px;
+  }
+
+ #pvz {
+    width: 100px;
+    height: 20px;
+    background: #ff0000;}
